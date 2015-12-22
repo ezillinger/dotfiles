@@ -1,3 +1,5 @@
 [user]
 	email = ezillinger@gmail.com
 	name = Eric Zillinger
+[push]
+	default = simple
