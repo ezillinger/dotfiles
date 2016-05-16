@@ -11,9 +11,10 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 "NERDTree
 Plugin 'scrooloose/nerdTree'
-"Airline Status Bar + Themes
+"Airline Status Bar + Themes + TmuxLine
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'edkolev/tmuxline.vim'
 "Ack.Vim
 Plugin 'mileszs/ack.vim'
 
@@ -96,10 +97,7 @@ set backupdir=~/.vim/backup
 set directory=~/.vim/swap
 
 "ignore case when searching unless i use a capital
-<<<<<<< HEAD
-set ignorecase
-=======
->>>>>>> new vimrc from scratch, added tmux
+"set ignorecase
 set smartcase
 
 "allow selecting empty space in visual block mode
