@@ -1,5 +1,10 @@
 [user]
-	email = ezillinger@gmail.com
+    email = ezillinger@gmail.com
 	name = Eric Zillinger
 [push]
 	default = simple
+[color]
+	ui = auto
+[alias]
+	co = checkout
+
