@@ -113,6 +113,9 @@ set splitright
 "auto reload changed files 
 set autoread
 
+"use + register as system clipboard
+set clipboard=unnamed,unnamedplus
+
 "<----------- Plugin Specific  ----------------->
 
 "########### AIRLINE #############
