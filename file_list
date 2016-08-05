@@ -1,0 +1,14 @@
+.bash_aliases
+.bash_logout
+.bash_profile
+.bashrc
+.git
+.gitconfig
+.gitignore
+.nanorc
+.profile
+.screenrc
+.tmux.conf
+.vimrc
+.ycm_extra_conf.py
+.zshrc
