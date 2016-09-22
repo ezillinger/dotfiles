@@ -12,6 +12,8 @@ Plugin 'VundleVim/Vundle.vim'
 
 "NERDTree 
 Plugin 'scrooloose/nerdTree'
+""toggle nerdtree 
+nmap <leader>n :NERDTreeToggle<CR>
 
 "Airline Status Bar + Themes + TmuxLine
 Plugin 'vim-airline/vim-airline'
@@ -71,7 +73,9 @@ nmap k gk
 
 "enable mouse scrolling
 set mouse=a
-set ttymouse=sgr
+if !has('nvim')
+    set ttymouse=sgr
+endif
 
 "tab = 4 spaces
 set expandtab
@@ -116,6 +120,8 @@ set autoread
 "use + register as system clipboard
 set clipboard=unnamed,unnamedplus
 
+"use w!! to write as root
+cmap w!! w !sudo tee > /dev/null %
 "<----------- Plugin Specific  ----------------->
 
 "########### AIRLINE #############
@@ -123,10 +129,6 @@ set clipboard=unnamed,unnamedplus
 set laststatus=2
 " use powerline fonts
 let g:airline_powerline_fonts = 1
-
-"########### NERDTREE #############
-"toggle nerdtree 
-nmap <leader>n :NERDTreeToggle<CR>
 
 "########### NEOCOMPLETE #############
 "neocomplete

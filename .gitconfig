@@ -1,5 +1,5 @@
 [user]
-    email = ezillinger@gmail.com
+	email = ezillinger@gmail.com
 	name = Eric Zillinger
 [push]
 	default = simple
@@ -7,4 +7,7 @@
 	ui = auto
 [alias]
 	co = checkout
-
+    smr = submodule update --recursive
+    cp = cherry-pick
+[core]
+	editor = vim
