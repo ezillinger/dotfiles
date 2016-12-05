@@ -11,3 +11,5 @@
     cp = cherry-pick
 [core]
 	editor = vim
+[credential "https://github.com"]
+    username = ezillinger
