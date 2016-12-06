@@ -33,6 +33,9 @@ Plugin 'majutsushi/tagbar'
 Bundle 'dyng/ctrlsf.vim'
 nmap <leader>f <Plug>CtrlSFPrompt<CR>
 
+"file-line (opens filename:linenumber output from grep)
+Bundle 'bogado/file-line'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -129,6 +132,7 @@ cmap w!! w !sudo tee > /dev/null %
 set laststatus=2
 " use powerline fonts
 let g:airline_powerline_fonts = 1
+let g:airline_theme='base16_atelierlakeside'
 
 "########### NEOCOMPLETE #############
 "neocomplete
