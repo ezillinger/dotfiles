@@ -132,7 +132,6 @@ cmap w!! w !sudo tee > /dev/null %
 set laststatus=2
 " use powerline fonts
 let g:airline_powerline_fonts = 1
-let g:airline_theme='base16_atelierlakeside'
 
 "########### NEOCOMPLETE #############
 "neocomplete
@@ -206,3 +205,8 @@ endif
 " https://github.com/c9s/perlomni.vim
 let g:neocomplete#sources#omni#input_patterns.perl = '\h\w*->\h\w*\|\h\w*::'
 
+
+set fileformat=unix
+set fileformats=unix,dos
+
+let g:airline_theme='base16_atelierlakeside'

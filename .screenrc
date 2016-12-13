@@ -5,14 +5,13 @@ autodetach on
 
 #always on status bar
 
-#hardstatus             alwayslastline                                                                                                                          
-#hardstatus string '%{= mK}%-Lw%{= KW}%50>%n%f* %t%{= mK}%+Lw%< %{= kG}%-=%D %d %M %Y %c:%s%{-}'
+hardstatus             alwayslastline                                                                                                                          
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
 
 #change shell name to whatever bash is running
 shelltitle "$ |bash"
 #lots of scrollback
-defscrollback 5000
+defscrollback 10000
 #use 256 color xterm
 term xterm-256color
 termcapinfo xterm* ti@:te@

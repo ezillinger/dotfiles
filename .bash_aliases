@@ -3,7 +3,8 @@
 #sublime-text 
 alias s="/usr/bin/subl"
 
-alias please='sudo $(history -p !!)'
+#vi -> vim
+alias vi="vim"
 
 #git
 alias gs="git status"
