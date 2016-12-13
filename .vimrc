@@ -36,6 +36,9 @@ nmap <leader>f <Plug>CtrlSFPrompt<CR>
 "file-line (opens filename:linenumber output from grep)
 Bundle 'bogado/file-line'
 
+"syntax pack
+Plugin 'sheerun/vim-polyglot'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
