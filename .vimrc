@@ -39,6 +39,9 @@ Bundle 'bogado/file-line'
 "syntax pack
 Plugin 'sheerun/vim-polyglot'
 
+"CtrlP file finder
+Plugin 'ctrlpvim/ctrlp.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -126,8 +129,6 @@ set autoread
 "use + register as system clipboard
 set clipboard=unnamed,unnamedplus
 
-"use w!! to write as root
-cmap w!! w !sudo tee > /dev/null %
 "<----------- Plugin Specific  ----------------->
 
 "########### AIRLINE #############
