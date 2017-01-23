@@ -36,11 +36,11 @@ nmap <leader>f <Plug>CtrlSFPrompt<CR>
 "file-line (opens filename:linenumber output from grep)
 Bundle 'bogado/file-line'
 
-"syntax pack
-Plugin 'sheerun/vim-polyglot'
-
 "CtrlP file finder
+
 Plugin 'ctrlpvim/ctrlp.vim'
+
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
