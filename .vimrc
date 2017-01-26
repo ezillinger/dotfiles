@@ -74,6 +74,9 @@ nnoremap <c-l> <c-w>l
 nmap <silent> <F4> :set invpaste<CR>:set paste?<CR>
 imap <silent> <F4> <ESC>:set invpaste<CR>:set paste?<CR>
 
+"Toggle line nos with F12
+noremap <silent> <F6> :set number!<CR> :set relativenumber!<CR>;
+
 "allow j/k to move between wrapped lines isntead of skipping
 nmap j gj
 nmap k gk
