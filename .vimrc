@@ -42,6 +42,9 @@ Plugin 'sheerun/vim-polyglot'
 "CtrlP file finder
 Plugin 'ctrlpvim/ctrlp.vim'
 
+"Git gutter
+Plugin 'airblade/vim-gitgutter'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
