@@ -9,6 +9,8 @@
 	co = checkout
     smr = submodule update --recursive
     cp = cherry-pick
+    dif = diff --ignore-space-at-eol
+    sho = show --ignore-space-at-eol
 [core]
 	editor = vim
 [credential "https://github.com"]
