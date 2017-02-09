@@ -65,6 +65,11 @@ syntax enable
 "enable search term highlight
 set hlsearch
 
+"show name of program in vim when in tmux
+if exists('$TMUX')
+    autocmd BufReadPost,FileReadPost,BufNewFile,BufEnter * call system("tmux rename-window 'vim|" . expand("%:t") . "'")
+endif
+
 "<----------- Key Maps ----------------->
 
 "keymaps for navigating splits
