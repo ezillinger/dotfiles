@@ -1,17 +1,55 @@
-[user]
-	email = ezillinger@gmail.com
-	name = Eric Zillinger
+[credential "https://github.com"]
+	username = ezillinger
+
 [push]
 	default = simple
-[color]
-	ui = auto
-[alias]
-	co = checkout
-    smr = submodule update --recursive
-    cp = cherry-pick
-    dif = diff --ignore-space-at-eol
-    sho = show --ignore-space-at-eol
 [core]
+	trustctime = false
 	editor = vim
-[credential "https://github.com"]
-    username = ezillinger
+	filemode = false
+	preloadindex = true
+	fscache = true
+	autocrlf = true
+[color]
+	ui = true
+[credential]
+	helper = cache --timeout=3600
+[alias]
+	last = log -1 --stat
+	cp = cherry-pick
+	co = checkout
+	cl = clone
+	ci = commit
+	st = status -sb
+	br = branch
+	unstage = reset HEAD --
+	dc = diff --cached
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all
+[gc]
+	auto = 256
+[user]
+	name = Eric Zillinger
+	email = zillinger@darkvisiontech.com
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
+[difftool]
+    guitool = bc3
+    tool = bc3
+    prompt = 0
+[difftool "bc3"]
+   path = "/c/Program Files/Beyond Compare 4/BComp.exe"
+[diff]
+   tool = bc3
+   guitool = bc3
+[gui]
+   recentrepo = C:/git/DV10675
+[merge]
+   tool = bc3
+   guitool = bc3
+[mergetool "bc3"]
+   path = "/c/Program Files/Beyond Compare 4/BComp.exe"
+[mergetool]
+   keepBackup = false
+
