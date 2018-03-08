@@ -5,6 +5,7 @@ alias vi="vim"
 
 #git
 alias gs="git status"
+alias gapi="git add --patch --interactive"
 unalias ll
 alias ll="ls -lah"
 
