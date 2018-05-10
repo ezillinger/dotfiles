@@ -3,3 +3,5 @@ set incsearch
 set hlsearch
 set smartcase
 set ignorecase
+set scrolloff=5
+
