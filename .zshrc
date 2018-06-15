@@ -1,3 +1,4 @@
+DISABLE_AUTO_UPDATE=true
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
@@ -50,7 +51,7 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=( gitfast zsh-completions )
+plugins=( zsh-completions )
 autoload -U compinit && compinit
 
 # User configuration
