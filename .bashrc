@@ -107,3 +107,6 @@ if [ ! -z "$STY" ]; then
     #prepend something to PS1 so that screen knows what's running (for shelltitle)
     export PS1='\[\033k\033\\\]'$PS1
 fi
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
