@@ -1,0 +1,17 @@
+set clipboard=unnamed
+set incsearch
+set hlsearch
+set smartcase
+set ignorecase
+set scrolloff=5
+
+"Ctrl+lkjw for navigatiing splits 
+
+nnoremap <c-j> <c-w>j
+nnoremap <c-k> <c-w>k
+nnoremap <c-h> <c-w>h
+nnoremap <c-l> <c-w>l
+
+"Make go back/go forward jump across files
+nmap <C-O> :vsc View.NavigateBackward<CR>
+nmap <C-I> :vsc View.NavigateForward<CR>

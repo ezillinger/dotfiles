@@ -1,15 +1,9 @@
 [credential "https://github.com"]
 	username = ezillinger
-
 [push]
 	default = simple
 [core]
-	trustctime = false
 	editor = vim
-	filemode = false
-	preloadindex = true
-	fscache = true
-	autocrlf = true
 [color]
 	ui = true
 [credential]
@@ -25,31 +19,5 @@
 	unstage = reset HEAD --
 	dc = diff --cached
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all
-[gc]
-	auto = 256
-[user]
-	name = Eric Zillinger
-	email = zillinger@darkvisiontech.com
-[pull]
-	rebase = true
 [rebase]
 	autoStash = true
-[difftool]
-    guitool = bc3
-    tool = bc3
-    prompt = 0
-[difftool "bc3"]
-   path = "/c/Program Files/Beyond Compare 4/BComp.exe"
-[diff]
-   tool = bc3
-   guitool = bc3
-[gui]
-   recentrepo = C:/git/DV10675
-[merge]
-   tool = bc3
-   guitool = bc3
-[mergetool "bc3"]
-   path = "/c/Program Files/Beyond Compare 4/BComp.exe"
-[mergetool]
-   keepBackup = false
-
