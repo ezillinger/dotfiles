@@ -10,8 +10,8 @@ New-Alias -Name gapi -Value GitAddPatchInteractive
 function GitSubmoduleUpdate { & git submodule update --init --recursive $args }
 New-Alias -Name gsu -Value GitSubmoduleUpdate
 
-function CdRepos { & Set-Location C:\repos }
-New-Alias -Name cdr -Value CdRepos
+function CdD { & Set-Location D:\}
+New-Alias -Name cdd -Value CdD
 
 # Linux muscle memory
 function LsList { & Get-ChildItem $args }

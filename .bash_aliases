@@ -6,6 +6,8 @@ alias vi="vim"
 #git
 alias gs="git status"
 alias gapi="git add --patch --interactive"
+alias gsu="git submodule update --init --recursive"
+
 unalias ll
 alias ll="ls -lah"
 
