@@ -31,7 +31,7 @@ InstallWinGet("MHNexus.HxD")
 InstallWinGet("Meld.Meld")
 InstallWinGet("Microsoft.VisualStudioCode")
 InstallWinGet("Microsoft.PowerShell")
-InstallWinGet("Microsoft.Sysinternals")
+InstallWinGet("Microsoft.Sysinternals.Suite")
 
 if ((Read-Host "Do you want to install fun stuff? (y/n)") -eq 'y') {
     InstallWinGet("qBittorrent.qBittorrent")
